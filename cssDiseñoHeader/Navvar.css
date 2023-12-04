@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #f1f1f1;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Lista de navegación */
+.nav-list {
+  list-style: none;
+  text-align: center;
+  gap: 2px;
+}
+
+/* Estilo del enlace en la lista de navegación */
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  padding: 2px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambios de estilo al pasar el mouse sobre el enlace */
+.nav-list a:hover {
+  background-color: #ddd;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-list li {
+    margin: 8px 0;
+  }
+
+  .nav-list a {
+    font-size: 16px;
+    padding: 8px;
+  }
+}

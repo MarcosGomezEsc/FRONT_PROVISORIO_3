@@ -1,0 +1,43 @@
+/* Estilos generales */
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  background-color: #f0f0f0;
+  border: 1px solid #d9d9d9;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 5px 5px 15px #bfbfbf, -5px -5px 15px #ffffff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Estilos específicos para cada elemento dentro de la tarjeta */
+.titulo_del_auto {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.año,
+.color,
+.precio {
+  margin: 5px 0;
+  color: #555;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Efecto de elevación al pasar el mouse */
+li:hover {
+  box-shadow: 8px 8px 20px #bfbfbf, -8px -8px 20px #ffffff;
+}

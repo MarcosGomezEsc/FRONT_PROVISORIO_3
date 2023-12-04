@@ -1,0 +1,46 @@
+/* Estilos para la página Sobre Nosotros */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Arial", sans-serif;
+  max-width: 800px;
+  max-width: 80vh;
+  margin-top: 10rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+/* Estilos para hacer la página más atractiva */
+
+.container {
+  background-color: rgb(134, 167, 190);
+  /* background-color: #f8f8f8; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Puedes agregar más estilos según tus preferencias */

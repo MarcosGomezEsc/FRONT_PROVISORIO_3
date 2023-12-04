@@ -1,0 +1,44 @@
+/* Estilos para el componente Slider */
+body {
+  margin: auto;
+}
+
+.contenedor_slider {
+  width: 80%;
+  text-align: center;
+  margin: 10rem 0;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide-image {
+  width: 270px;
+  height: auto;
+  border: 1px solid #ddd; /* Borde alrededor de la imagen */
+  border-radius: 8px; /* Borde redondeado */
+}
+
+button {
+  position: relative;
+  margin: 0 7rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #3498db; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #217dbb; /* Cambia el color al pasar el ratón sobre el botón */
+}
+
+/* Estilos adicionales según tu diseño específico */
