@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
 import DataAutos from "../dataAutos_Api/obtener_Datos";
 import Navvar from "../componentes/Navvar";
-import SobreNosotros from "../componentes/SobreNosotros";
-import Contacto from "../componentes/Contacto";
-import Slider from "../componentes/Silder_Autos";
-import BuscadorAutos from "../componentes/Buscador";
+// import SobreNosotros from "../componentes/SobreNosotros";
+import VenderAuto from "../componentes/VenderAuto";
+// import BuscadorAutos from "../componentes/Buscador";
 //ruteo
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const API_URL = "http://app-cdec4268-b88f-4f69-9360-f867ec600cc0.cleverapps.io";
+const API_URL = "http://localhost:3000";
 
 function App() {
   const [data, setData] = useState([]);
@@ -39,11 +38,10 @@ function App() {
   return (
     <>
       <Navvar />
-      <BuscadorAutos data={data}></BuscadorAutos>
+      {/* <BuscadorAutos data={data}></BuscadorAutos> */}
       {loading ? <p>Cargando...</p> : <DataAutos data={data} />}
-      <Slider data={data} />
-      <SobreNosotros></SobreNosotros>
-      <Contacto></Contacto>
+      <VenderAuto></VenderAuto>
+      {/* <SobreNosotros></SobreNosotros> */}
       {/* //ruteo */}
       {/* <BrowserRouter>
         <Routes>{/* <Route path="/Autos" element={<Auto></Auto>} /> </Routes>

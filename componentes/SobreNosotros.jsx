@@ -3,7 +3,7 @@ import "../cssFooter/SobreNosotros.css";
 
 const SobreNosotros = () => {
   return (
-    <div className="container">
+    <div className="container_Nos">
       <h2>Nuestra Historia</h2>
       <p>
         Bienvenido a Auto-Manía, donde la pasión por los autos se combina con el

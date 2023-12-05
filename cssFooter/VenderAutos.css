@@ -1,0 +1,48 @@
+/* Estilos CSS para el formulario de contacto */
+
+.container_Contacto {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 10rem;
+  padding: 20px;
+  background-color: #f0f5fe; /* Color celeste claro */
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px #b5b5b5, -5px -5px 15px #ffffff; /* Estilo neumorfismo */
+}
+
+h2 {
+  color: #0066cc; /* Color de texto */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px;
+  background-color: #0066cc; /* Color del botón */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5; /* Color del botón al pasar el mouse */
+}
